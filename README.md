@@ -1,23 +1,25 @@
-# Forge3D
+# Forge3D PHP landing page
 
-A premium AI 3D and motion design landing page built with Next.js and Tailwind CSS.
+This project is prepared for InfinityFree hosting as a simple PHP website.
 
-## Getting started
+## Deployment
+
+1. Upload the contents of `public_html/` to your InfinityFree hosting root (usually `public_html/` via FTP or File Manager).
+2. Open the site URL in your browser.
+3. Example: `https://yourdomain.com/`
+
+## Local preview
+
+From a local PHP environment:
 
 ```bash
-npm install
-npm run dev
+php -S localhost:8000 -t public_html
 ```
 
-Open http://localhost:3000.
+Then open `http://localhost:8000/`.
 
-## Scripts
+## Notes
 
-- `npm run dev` – run the app locally
-- `npm run build` – create production build
-- `npm run start` – start production build
-- `npm run lint` – lint the project
-
-## Product direction
-
-Forge3D is a concept landing page for an AI 3D studio that goes beyond generation and into product-grade design, animation, and asset control.
+- This is a clean PHP landing page version of the Forge3D concept.
+- It does not require a database or Composer install.
+- InfinityFree supports standard PHP hosting without extra setup.
